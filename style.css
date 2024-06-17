@@ -301,9 +301,6 @@ footer img {
         font-size: 6vw;
     }
 
-    .nav-home a {
-        font-size: 2.5vw;
-    }
 
     .linha-esquerda {
         width: 600px;
@@ -341,6 +338,17 @@ footer img {
         margin: 0 0 95px 0;
         text-align: center;
     }
+
+    
+    nav {
+        justify-content: unset;
+    }
+
+    .nav-home li {
+        margin: 0 10px;
+        font-size: 4vw;
+    }
+    
 }
 
 
@@ -354,11 +362,20 @@ footer img {
     }
 
     .texto h2 {
-        font-size: 45px;
+        font-size: 40px;
     }
 
     .nav-home a {
         font-size: 3vw;
+    }
+
+    nav {
+        justify-content: unset;
+    }
+
+    .texto p {
+        max-width: 280px;
+        margin: 0 15px;
     }
 }
 
