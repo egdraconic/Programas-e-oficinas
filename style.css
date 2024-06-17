@@ -301,7 +301,10 @@ footer img {
         font-size: 6vw;
     }
 
-
+    .texto p {
+        max-width: 80vw;
+    }
+    
     .linha-esquerda {
         width: 600px;
     }
@@ -326,7 +329,6 @@ footer img {
     }
 
     .texto p {
-    width: 350px;
     margin: 0 50px;
     }
 
