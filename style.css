@@ -326,7 +326,8 @@ footer img {
     }
 
     .texto p {
-        width: auto;
+    width: 350px;
+    margin: 0 50px;
     }
 
     .imagem {
