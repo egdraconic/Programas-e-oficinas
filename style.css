@@ -107,7 +107,7 @@ main {
   }
   .mobile-menu {
     display: block;
-    padding-left: 50px;
+    padding-left: 10vw;
     
   }
 }
@@ -232,7 +232,7 @@ header ul {
 }
 
 .jovem-aprendiz {
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 
@@ -287,13 +287,10 @@ footer img {
     }
 }
 
+
 @media screen and (max-width: 1200px) {
     .imagem img {
         width: 36vw;
-    }
-
-    .Adolescente-Cidadão .texto p, .Oficinas .texto p {
-        width: auto;
     }
 
 }
@@ -319,6 +316,18 @@ footer img {
     .texto h2  {
         text-align: center;
     }
+
+    .nav-home li {
+        margin: 0 0 0 25px;
+        list-style: none;
+    }
+
+    header ul {
+        flex-wrap: nowrap;
+    }
+    p {
+        width: 80vw;
+    }
 }
 
 
@@ -327,6 +336,59 @@ footer img {
         margin: 0;
         gap:0;
     }
+
+    nav {
+        height: 40px;
+    }
+
+    .texto p {
+        text-align: justify;
+        width: 80vw;
+        margin: auto;
+    }
+
+    .nav-home li {
+        margin: 0 0 0 20px;
+        font-size: 20px;
+    }
+
+
+    .conteiner {
+        margin: 0;
+    }
+
+    .linha-esquerda {
+        width: auto;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .jovem-aprendiz .imagem {
+        order: -1;
+    }
+}
+
+
+@media screen and (orientation:landscape) and (max-width: 760px) {
+    .nav-home li {
+        margin: 0 18px;
+        list-style: none;
+    }
+
+    .linha-esquerda {
+        width: auto;
+    }
+
+    .texto p {
+        width: 80vw;
+    }
+
+    .Adolescente-Cidadão hr {
+        margin: auto;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -340,10 +402,6 @@ footer img {
 
     hr {
         display: none;
-    }
-
-    .texto p {
-        width: auto;
     }
 
     .imagem {
@@ -365,10 +423,6 @@ footer img {
         margin: 0 10px;
         font-size: 4vw;
     }
-    .texto p {
-        width: 350px;
-        margin: auto;
-    }
     
 
     .nav-home a {
@@ -379,6 +433,11 @@ footer img {
         width: 200px;
         margin: auto;
     }
+
+        
+    .jovem-aprendiz .texto h2 {
+        font-size: 14vw;
+    }
 }
 
 
@@ -388,11 +447,11 @@ footer img {
     }
 
     .texto p {
-        font-size: 18px;
+        font-size: 10vw;
     }
 
     .texto h2 {
-        font-size: 40px;
+        font-size: 15vw;
     }
 
     .nav-home a {
@@ -403,10 +462,6 @@ footer img {
         justify-content: unset;
     }
 
-    .texto p {
-        max-width: 280px;
-        margin: 0 15px;
-    }
 
     header ul {
         margin: 0;
@@ -416,7 +471,12 @@ footer img {
     .nav-home li {
         margin: 0 5px;
     }
+    
+    .jovem-aprendiz .texto h2 {
+        font-size: 14vw;
+    }
 }
+
 
 
 /* 320px, 480px, 760px, 960px, 1200px, 1600px */
