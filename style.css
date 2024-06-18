@@ -160,12 +160,6 @@ main {
   color: #2A516E;
 }
 
-
-body {
-    background: #FBF4E8;
-}    
-
-
 .menu:hover {
     cursor: pointer;
 }
@@ -286,6 +280,11 @@ footer img {
     .imagem img {
         width: 36vw;
     }
+
+    .Adolescente-Cidadão .texto p, .Oficinas .texto p {
+        width: auto;
+    }
+
 }
 
 @media screen and (max-width: 960px) {
@@ -301,17 +300,13 @@ footer img {
         font-size: 6vw;
     }
 
-    .texto p {
-        max-width: 80vw;
-    }
-    
+
     .linha-esquerda {
         width: 600px;
     }
 
-
-    .nav-home li {
-        margin: 0 32px;
+    .texto h2  {
+        text-align: center;
     }
 }
 
@@ -329,7 +324,7 @@ footer img {
     }
 
     .texto p {
-    margin: 0 50px;
+        width: auto;
     }
 
     .imagem {
@@ -351,7 +346,20 @@ footer img {
         margin: 0 10px;
         font-size: 4vw;
     }
+    .texto p {
+        width: 350px;
+        margin: auto;
+    }
     
+
+    .nav-home a {
+        font-size: 13px;
+    }
+
+    .jovem-aprendiz .texto h2 {
+        width: 200px;
+        margin: auto;
+    }
 }
 
 
